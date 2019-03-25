@@ -1,0 +1,26 @@
+<template>
+  <div class="#NAME">
+    <div class="content-wrap" ref="contentBScrollWrap">
+      <div class="">
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: '#NAME',
+  data () {
+    return {
+    }
+  },
+  async created () {
+    await this.initBScroll()
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.#NAME{
+}
+</style>
